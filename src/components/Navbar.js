@@ -23,7 +23,7 @@ class Navbar extends Component {
 						<div className="ae-dropdown">
 							<nav>
 								<ul className="no-padding">
-									<li><a href="#projects">Projects <FaCaretDown/></a>
+									<li>Projects <FaCaretDown/>
 										<ul>
 											<li>
 												<Link to="/kebanas" className="btn btn-sm mt-3 mb-4">Kebanas</Link>
