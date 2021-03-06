@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { Link, withRouter } from 'react-router-dom'
 
 import { FaLinkedin } from "react-icons/fa";
 
@@ -44,7 +43,7 @@ class Contact extends Component {
 							<b className="text-orange">Social</b>
 							<div className="text-muted mt-2">
 								<ul className="basic no-padding list-inline">
-									<li><a href="https://www.linkedin.com/in/aggrey-ennis-509873112/" target="_blank"><FaLinkedin /> LinkedIn</a></li>
+									<li><a href="https://www.linkedin.com/in/aggrey-ennis-509873112/" rel="noreferrer" target="_blank"><FaLinkedin /> LinkedIn</a></li>
 								</ul>
 							</div>
 						</div>
