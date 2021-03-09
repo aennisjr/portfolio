@@ -1,26 +1,6 @@
-<!DOCTYPE HTML>
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if IE 9 ]><html class="ie ie9" lang="en"> <![endif]-->
-<!--[if (gte IE 10)|!(IE)]><!-->
-<html lang="en-US"> <!--<![endif]-->
-<head>
-
-    <!-- Primary Meta Tags -->
-    <meta name="title" content="Aggrey Ennis">
-    <meta name="description" content="Developer and aspiring data scientist.">
-
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://aennisjr.netlify.app/">
-    <meta property="og:title" content="Meta Tags — Preview, Edit and Generate">
-    <meta property="og:description" content="Developer and aspiring data scientist.">
-
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://aennisjr.netlify.app/">
-    <meta property="twitter:title" content="Aggrey Ennis">
-    <meta property="twitter:description" content="Developer and aspiring data scientist.">
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -30,71 +10,11 @@
       content="Web site created using create-react-app"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-
-    <!-- Kebanas Plugin -->
-    <link rel="stylesheet" type="text/css" href="https://kebanas.com/cdn/css/kebanas-plugin.min.css">
-
+    <title>React App</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-
-    <!-- Kebanas Plugin -->
-    <script src="https://kebanas.com/cdn/js/kebanas-plugin.js"></script>
-    <script>
-        window.addEventListener('load', function() {
-
-            const kb_config = [
-                {
-                    kb_endpoint: 'https://kebanas.com/form/api/cfetk3ulq8',
-                    kb_button_icon: 'paper-plane',
-                    kb_button_title: 'Let\'s Talk',
-                    kb_position: 'bottom_right',
-                    kb_popup_theme: 'red',
-                    kb_popup_title: 'Got questions?',
-                    kb_response: 'Thanks! Your message has been sent.',
-                    kb_preface: 'Ask me anything, I\'m always happy to help.'
-                }
-            ];
-
-            const kb_fields = [
-                { 
-                    type: "text", 
-                    label: "Your Name:", 
-                    name: "name",
-                    required: true
-                },
-                { 
-                    type: "email", 
-                    label: "Email Address:", 
-                    name: "email",
-                    required: true
-                },
-                {
-                    type: "textarea",
-                    label: "Message:",
-                    name: "message",
-                    required: true,
-                    placeholder: "What's on your mind?",
-                    rows: 5,
-                    cols: 3,
-                    minlength: 10,
-                    maxlength: 450
-                },
-                { 
-                    type: "submit",
-                    name: "Send It!",
-                    class: "mt-3",
-                    id: "your-id",
-                    class: "btn btn-primary"
-                } 
-            ];
-
-            init_kebanas(kb_config, kb_fields);
-        });
-    </script>
-
   </body>
 </html>
