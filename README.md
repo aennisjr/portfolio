@@ -1,7 +1,7 @@
 # portfolio
 Personal portfolio site built with React.
 
-Live: https://aennisjr.netlify.app/
+Live: https://aennisjr.com/
 
 ![screenshot](https://i.imgur.com/Fi2ojPg.png)
 
