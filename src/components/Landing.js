@@ -191,8 +191,8 @@ class Landing extends Component {
 
 				<div className="spacer-100"></div>
 
-				<div class="container">
-					<div class="divider"></div>
+				<div className="container">
+					<div className="divider"></div>
 				</div>
 
 				<div className="spacer-100"></div>
