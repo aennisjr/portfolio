@@ -49,6 +49,9 @@ h1,h2,h3,h4,h5,h6 {
     word-spacing: 2px;
     color: #e6e6e6;
 }
+.bold {
+    font-weight: bold;
+}
 a {
     color: inherit;
 }
@@ -56,6 +59,7 @@ a,a:active,a:focus,a:hover,a:visited,button:active,button:focus,button:hover,but
     outline: none !important;
     outline-color: unset !important;
     text-decoration: none !important;
+    color: unset;
 }
 input:active, input:focus, select:focus, select:active {
     outline: none !important;
