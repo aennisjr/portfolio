@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 
 import { FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 
 class Contact extends Component {
 	
@@ -22,7 +23,7 @@ class Contact extends Component {
 				<div className="container">
 					<div className="row">
 						<div className="col-md-4">
-							<b className="text-orange">Location</b>
+						<div className="bold text-orange mt-2">Location</div>
 							<div className="text-muted mt-2">
 								Scarborough, Toronto <br />
 								ON, Canada
@@ -30,7 +31,7 @@ class Contact extends Component {
 						</div>
 
 						<div className="col-md-4">
-							<b className="text-orange">Email</b>
+							<div className="bold text-orange mt-2">Email</div>
 							<div className="text-muted mt-2">
 								<ul className="basic no-padding">
 									<li><a href="mailto:aggreyennis@gmail.com">aggreyennis@gmail.com</a></li>
@@ -40,10 +41,11 @@ class Contact extends Component {
 						</div>
 
 						<div className="col-md-4">
-							<b className="text-orange">Social</b>
+							<div className="bold text-orange mt-2">Social</div>
 							<div className="text-muted mt-2">
-								<ul className="basic no-padding list-inline">
+								<ul className="basic no-padding">
 									<li><a href="https://www.linkedin.com/in/aggrey-ennis-509873112/" rel="noreferrer" target="_blank"><FaLinkedin /> LinkedIn</a></li>
+									<li><a href="https://github.com/aennisjr" rel="noreferrer" target="_blank"><FaGithub/> Github</a></li>
 								</ul>
 							</div>
 						</div>
