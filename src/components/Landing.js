@@ -36,7 +36,7 @@ class Landing extends Component {
 						<h1 className="title">Hello</h1>
 						<p>
 							I'm <b className="bold text-warning">Aggrey Ennis</b><br/>
-							Developer and aspiring data scientist.
+							Developer and aspiring Data Scientist.
 						</p>
 					</div>
 				</div>
