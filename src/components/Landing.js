@@ -18,6 +18,9 @@ import { FaBootstrap } from "react-icons/fa";
 import { FaExternalLinkSquareAlt } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaPaintBrush } from "react-icons/fa";
+import { FaRegFilePdf } from 'react-icons/fa';
+
+// import resume from '../src/assets/files/aggrey-ennis-pdf';
 
 class Landing extends Component {
 	
@@ -124,7 +127,7 @@ class Landing extends Component {
 						</div>
 
 						<div className="row">
-							<div className="col-sm-8">
+							<div className="col-sm-12">
 								<h4 className="mb-4 mt-4">Experience</h4>
 
 								<div className="mb-3">
@@ -154,11 +157,25 @@ class Landing extends Component {
 									</div>
 								</div>
 							</div>
+						</div>	
 
-							<div className="col-sm-4">
-								<h4 className="mb-4 mt-4">Technical</h4>
+						<h4 className="mb-4 mt-4">Technical</h4>
 
-								<b>Competencies</b>
+						<div className="row">
+							<div className="col-sm-7">
+								<b>Data Science  & Cloud</b>
+
+								<ul className="basic no-padding text-muted mt-3">
+									<li><FaCheckCircle /> &nbsp;Cloud application deployment via Amazon S3, Heroku, Netlify</li>
+									<li><FaCheckCircle /> &nbsp;Experience working with and extracting value from large, disconnected and/or unstructured datasets</li>
+									<li><FaCheckCircle /> &nbsp;Familiarity with data science machine-learning tools for analysis of data (Hadoop, Spark, Kafka, and more)</li>
+									<li><FaCheckCircle /> &nbsp;Source and version control systems such as GitHub, BitBucket, and GitLab</li>
+								</ul>
+							</div>
+
+							<div className="col-sm-5">
+
+								<b>Programming, Design & Development</b>
 
 								<div className="row">
 									<div className="col-sm-6">
@@ -167,7 +184,7 @@ class Landing extends Component {
 											<li><FaNodeJs/> NodeJS</li>
 											<li><FaPhp /> PHP</li>
 											<li><FaPython /> Python</li>
-											<li><FaDatabase /> SQL</li>
+											<li><FaDatabase /> SQL/NoSQL Databases</li>
 											<li><FaJava /> Java</li>
 										</ul>
 									</div>
@@ -189,7 +206,7 @@ class Landing extends Component {
 					</div>
 				</div>
 
-				<div className="spacer-100"></div>
+				<div className="spacer-50"></div>
 
 				<div className="container">
 					<div className="divider"></div>

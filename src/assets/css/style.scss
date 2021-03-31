@@ -10,8 +10,10 @@ $orange: #df7a59;
 body{
 	font-family: 'Fira Sans', 'Helvetica', 'Arial', sans-serif; 
     font-size: 15px;
-    background-color: #0b0c0d;
-    color: white;
+    // background-color: #0b0c0d;
+    // color: white;
+    background-color: #16191e;
+    color: rgb(201, 201, 201);
 }
 .container {
     max-width: 1040px !important;
@@ -243,7 +245,8 @@ p {
     }
 
     .cv-item {
-        background-color: #0a0a0b;
+        // background-color: #0a0a0b;
+        background-color: #1b1d21;
         padding: 20px;
         display: flex;
         transition: all 0.3s ease-in-out;

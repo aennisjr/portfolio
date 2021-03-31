@@ -6,8 +6,8 @@
 body {
   font-family: 'Fira Sans', 'Helvetica', 'Arial', sans-serif;
   font-size: 15px;
-  background-color: #0b0c0d;
-  color: white;
+  background-color: #16191e;
+  color: #c9c9c9;
 }
 
 .container {
@@ -246,7 +246,7 @@ p b, p strong {
 }
 
 .cv .cv-item {
-  background-color: #0a0a0b;
+  background-color: #1b1d21;
   padding: 20px;
   display: flex;
   transition: all 0.3s ease-in-out;
