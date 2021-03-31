@@ -203,6 +203,10 @@ class Landing extends Component {
 							</div>
 						</div>
 
+						<div className="download-resume mt-4">
+							<a href={require('../assets/files/aggrey-ennis-resume.pdf').default} download><FaRegFilePdf className="text-danger"/> Download Resume (PDF format)</a>
+						</div>
+
 					</div>
 				</div>
 
