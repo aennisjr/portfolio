@@ -26,14 +26,14 @@ class Landing extends Component {
 	
 	render() {
 
-		document.title = "Homepage | " + process.env.REACT_APP_WEBSITE_NAME;
+		document.title = "Hello | " + process.env.REACT_APP_WEBSITE_NAME;
 
 		return(
 			<div>
 				<div className="homepage-header">
 					<div className="header-overlay"></div>
 					<div className="container header-content text-center">
-						<h1 className="title">Hello</h1>
+						<h1 className="title">Hello👋</h1>
 						<p>
 							I'm <b className="bold text-warning">Aggrey Ennis</b><br/>
 							Developer and aspiring Data Scientist.
